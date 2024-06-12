@@ -30,8 +30,8 @@ O = 0;
 k=1;
 for ii=1:n
     %randk(ii)
-    I1 = im2double(imread(['..\transmission\pattern_10000.0_butterfly_final_diffP_shuffle\' num2str(k,'%.5d') '.png']));
-    I2 = im2double(imread(['..\transmission\pattern_10000.0_butterfly_final_diffP_shuffle\' num2str(k+1,'%.5d') '.png']));
+    I1 = im2double(imread(['..\pattern_10000.0_butterfly_final_diffP_shuffle\' num2str(k,'%.5d') '.png']));
+    I2 = im2double(imread(['..\pattern_10000.0_butterfly_final_diffP_shuffle\' num2str(k+1,'%.5d') '.png']));
     
     I = I1-I2;
     
